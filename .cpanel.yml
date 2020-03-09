@@ -1,5 +1,6 @@
   ---
   deployment:
     tasks:
-      - export DEPLOYPATH=/home/fairushu/public_html/
-      - /bin/cp -R images $DEPLOYPATH
+      - export DEPLOYPATH=/home/fairushu/public_html/ecomm
+      - /bin/cp * $DEPLOYPATH
+
